@@ -1,3 +1,10 @@
+"""
+API endpoints are accessible via the Codespace public URL using the $CODESPACE_NAME environment variable:
+    https://$CODESPACE_NAME-8000.app.github.dev/api/[component]/
+Example:
+    https://$CODESPACE_NAME-8000.app.github.dev/api/activities/
+Do not hardcode $CODESPACE_NAME; Django routing works with /api/[component]/ and ALLOWED_HOSTS is set in settings.py.
+"""
 """octofit_tracker URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
